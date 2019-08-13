@@ -1,0 +1,233 @@
+.container{
+	max-width: 1560px;
+	margin: 0 auto;
+}
+.box{
+	max-width: 1560px;
+	margin: 0 auto;
+}
+.box-p{
+	padding: 0 15px;
+	.to(1400px, {
+		padding: 0 10px;
+	});
+}
+.box-f{
+	margin: 0 -15px;
+	.to(1400px, {
+		margin: 0 -10px;
+	});
+}
+.flex-grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.f0{
+	font-size: 0;
+}
+.f1{
+	font-size: 16px;
+}
+.grid{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 15px;
+	font-size: 16px;
+	.to(1400px, {
+		padding: 0 10px;
+	});
+}
+.grid() {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	padding: 0 15px;
+	font-size: 16px;
+	@media(max-width: 1400px) {
+		padding: 0 10px;
+	}
+}
+.size(@col) {
+	@val: 100% / 12 * @col;
+	width: @val;
+}
+.inl() {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.page{
+	position: relative;
+	z-index: 2;
+}
+.page_left{
+	position: absolute;
+	height: 100%;
+	width: 9.375%;
+	box-sizing: content-box;
+	padding: 0 7.5px;
+	top: -20px;
+	.to(1400px, {
+		width: 5%;
+	});
+}
+.page_box{
+	position: relative;
+	z-index: 2;
+	max-width: 1560px;
+	margin: 0 9.375%;
+	.to(1400px, {
+		margin: 0 5%;
+	});
+	.to(1023px, {
+		padding: 0 10px;
+	});
+}
+.to(1023px, {
+	.page_left{
+		position: static;
+		height: auto;
+		width: 100%;
+		margin: 0;
+		padding: 0 20px;
+	}
+	.page_box{
+		height: auto;
+		width: 100%;
+		margin: 0;
+	}
+});
+.page-bg{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	right: -180px;
+	bottom: 0;
+	background: #fff;
+	z-index: -1;
+	.to(1400px, {
+		left: 10px;
+	});
+	.to(1023px, {
+		left: 0px;
+	});
+}
+.page-bg-full{
+	left: -180px !important;
+}
+
+.newsLay{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	.newsLay_left{
+		.sizef(8);
+	}
+	.newsLay_right{
+		.sizef(3);
+	}
+	.to(1023px, {
+		.newsLay_left,
+		.newsLay_right{
+			width: 100%;
+		}
+		.newsLay_left{
+			margin-bottom: 40px;
+		}
+	});
+}
+
+
+/* GRIDS */
+
+.g0() {width: 0px; overflow: hidden;height: 0px;padding: 0 !important;}
+.g1() {width: 8.333333%; }
+.g2() {width: 16.666666%;}
+.g3() {width: 25%;       }
+.g4() {width: 33.333333%;}
+.g5() {width: 41.666666%;}
+.g6() {width: 50%;       }
+.g7() {width: 58.333333%;}
+.g8() {width: 66.666666%;}
+.g9() {width: 75%;       }
+.g10(){width: 83.333333%;}
+.g11(){width: 91.666666%;}
+.g12(){width: 100%;      }
+
+
+.lg-0{.from(1400px, {.g0();}); .grid();}
+.lg-1{.from(1400px, {.g1();}); .grid();}
+.lg-2{.from(1400px, {.g2();}); .grid();}
+.lg-3{.from(1400px, {.g3();}); .grid();}
+.lg-4{.from(1400px, {.g4();}); .grid();}
+.lg-5{.from(1400px, {.g5();}); .grid();}
+.lg-6{.from(1400px, {.g6();}); .grid();}
+.lg-7{.from(1400px, {.g7();}); .grid();}
+.lg-8{.from(1400px, {.g8();}); .grid();}
+.lg-9{.from(1400px, {.g9();}); .grid();}
+.lg-10{.from(1400px, {.g10();}); .grid();}
+.lg-11{.from(1400px, {.g11();}); .grid();}
+.lg-12{.from(1400px, {.g12();}); .grid();}
+
+
+.md-0{.from(1023px, {.g0();}); .grid();}
+.md-1{.from(1023px, {.g1();}); .grid();}
+.md-2{.from(1023px, {.g2();}); .grid();}
+.md-3{.from(1023px, {.g3();}); .grid();}
+.md-4{.from(1023px, {.g4();}); .grid();}
+.md-5{.from(1023px, {.g5();}); .grid();}
+.md-6{.from(1023px, {.g6();}); .grid();}
+.md-7{.from(1023px, {.g7();}); .grid();}
+.md-8{.from(1023px, {.g8();}); .grid();}
+.md-9{.from(1023px, {.g9();}); .grid();}
+.md-10{.from(1023px, {.g10();}); .grid();}
+.md-11{.from(1023px, {.g11();}); .grid();}
+.md-12{.from(1023px, {.g12();}); .grid();}
+
+
+.sm-0{.from(768px, {.g0();}); .grid();}
+.sm-1{.from(768px, {.g1();}); .grid();}
+.sm-2{.from(768px, {.g2();}); .grid();}
+.sm-3{.from(768px, {.g3();}); .grid();}
+.sm-4{.from(768px, {.g4();}); .grid();}
+.sm-5{.from(768px, {.g5();}); .grid();}
+.sm-6{.from(768px, {.g6();}); .grid();}
+.sm-7{.from(768px, {.g7();}); .grid();}
+.sm-8{.from(768px, {.g8();}); .grid();}
+.sm-9{.from(768px, {.g9();}); .grid();}
+.sm-10{.from(768px, {.g10();}); .grid();}
+.sm-11{.from(768px, {.g11();}); .grid();}
+.sm-12{.from(768px, {.g12();}); .grid();}
+
+
+.xs-0{.from(540px, {.g0();}); .grid();}
+.xs-1{.from(540px, {.g1();}); .grid();}
+.xs-2{.from(540px, {.g2();}); .grid();}
+.xs-3{.from(540px, {.g3();}); .grid();}
+.xs-4{.from(540px, {.g4();}); .grid();}
+.xs-5{.from(540px, {.g5();}); .grid();}
+.xs-6{.from(540px, {.g6();}); .grid();}
+.xs-7{.from(540px, {.g7();}); .grid();}
+.xs-8{.from(540px, {.g8();}); .grid();}
+.xs-9{.from(540px, {.g9();}); .grid();}
+.xs-10{.from(540px, {.g10();}); .grid();}
+.xs-11{.from(540px, {.g11();}); .grid();}
+.xs-12{.from(540px, {.g12();}); .grid();}
+
+
+.s-0{.to(540px, {.g0();}); .grid();}
+.s-1{.to(540px, {.g1();}); .grid();}
+.s-2{.to(540px, {.g2();}); .grid();}
+.s-3{.to(540px, {.g3();}); .grid();}
+.s-4{.to(540px, {.g4();}); .grid();}
+.s-5{.to(540px, {.g5();}); .grid();}
+.s-6{.to(540px, {.g6();}); .grid();}
+.s-7{.to(540px, {.g7();}); .grid();}
+.s-8{.to(540px, {.g8();}); .grid();}
+.s-9{.to(540px, {.g9();}); .grid();}
+.s-10{.to(540px, {.g10();}); .grid();}
+.s-11{.to(540px, {.g11();}); .grid();}
+.s-12{.to(540px, {.g12();}); .grid();}
