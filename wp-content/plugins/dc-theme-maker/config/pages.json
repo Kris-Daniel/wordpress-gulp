@@ -1,0 +1,36 @@
+[
+    {
+        "slug": "home",
+        "title": "Home",
+        "editor": false
+    },
+    {
+        "slug": "about-us",
+        "title": "About Us",
+        "template": "about"
+    },
+    {
+        "slug": "contact",
+        "title": "Contact",
+        "template": "contact",
+        "editor": true
+    },
+    {
+        "slug": "our-team",
+        "title": "Our Team",
+        "template": "our-team",
+        "editor": true
+    },
+    {
+        "slug": "products",
+        "title": "Products",
+        "template": "products",
+        "editor": true
+    },
+    {
+        "slug": "animal-welfare",
+        "title": "Animal Welfare",
+        "template": "default",
+        "editor": true
+    }
+]

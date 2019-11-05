@@ -1,0 +1,18 @@
+[
+    {
+        "slug":"products",
+        "title":"Products",
+        "icon": "dashicons-format-status",
+        "url": true,
+        "editor": true,
+        "hierarchical": false
+    },
+    {
+        "slug":"our-team",
+        "title":"Our Team",
+        "icon": "dashicons-format-status",
+        "url": false,
+        "editor": true,
+        "hierarchical": false
+    }
+]

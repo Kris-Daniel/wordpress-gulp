@@ -1,0 +1,77 @@
+
+.taxonomy-image-thumbnail {
+	display: block;
+	margin-bottom: 3px;
+	overflow: hidden;
+	text-align: center;
+	width: 75px;
+	height: 75px;
+}
+
+.taxonomy-image-thumbnail img {
+	width: 75px;
+	height: 75px;
+}
+
+.taxonomy-image-thumbnail-large {
+	width: 120px;
+	height: 120px;
+}
+
+.taxonomy-image-thumbnail-large img {
+	width: 120px;
+	height: 120px;
+}
+
+.taxonomy-image-control .control {
+	background-color: #b3b9bf;
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin:  0 3px 3px 0;
+	overflow: hidden;
+	position: relative;
+	text-indent: -9999em;
+	width: 12px;
+	height: 12px;
+}
+
+.taxonomy-image-control .upload:hover {
+	background-color: #00a2d7;
+}
+
+.taxonomy-image-control .remove:hover {
+	background-color: #d00;
+}
+
+.taxonomy-image-control .upload::before,
+.taxonomy-image-control .remove::before,
+.taxonomy-image-control .upload::after {
+	display: block;
+	content: ' ';
+	position: absolute;
+}
+
+.taxonomy-image-control .upload::before,
+.taxonomy-image-control .remove::before {
+	border-top: 2px solid #fff;
+	width: 8px;
+	top: 5px;
+	left: 2px;
+}
+
+.taxonomy-image-control .upload::after {
+	border-left: 2px solid #fff;
+	height: 8px;
+	top: 2px;
+	left: 5px;
+}
+
+.taxonomy-image-control .hide {
+	visibility: hidden;
+}
+
+.taxonomy-image-control .show {
+	visibility: visible;
+}

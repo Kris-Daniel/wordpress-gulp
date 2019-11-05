@@ -1,0 +1,279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webcraftic Robin image optimizer premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 20:10+0000\n"
+"PO-Revision-Date: 2019-03-06 20:10+0000\n"
+"Last-Translator: wordpress.webraftic@gmail.com\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1"
+
+#: includes/class.plugin.php:195
+msgid "Robin Image Optimizer Premium requires valid license"
+msgstr ""
+
+#: admin/pages/nextgen.php:102
+msgid "NextGen Gallery"
+msgstr ""
+
+#: admin/pages/license.php:60
+msgid "License"
+msgstr "Лицензия"
+
+#: admin/pages/license.php:61
+msgid "Product activation"
+msgstr ""
+
+#: admin/pages/license.php:65
+#, php-format
+msgid "<b>%s</b> is a premium image optimization plugin for WordPress. "
+msgstr ""
+
+#: admin/pages/license.php:66
+msgid ""
+"Paid license guarantees that you can optimize images under better conditions "
+"and WebP support."
+msgstr ""
+
+#: admin/pages/folders.php:106
+msgid "Custom Folders"
+msgstr ""
+
+#: admin/ajax/folders.php:8
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/classes/class.backup.php:32 includes/classes/class.backup.php:115
+msgid "Unable to create backup subfolder."
+msgstr ""
+
+#: includes/classes/class.backup.php:94 includes/classes/class.backup.php:165
+msgid "Unable to restore from a backup. There is no file."
+msgstr ""
+
+#: includes/classes/class.gallery-nextgen.php:328
+msgid "No access for writing backups."
+msgstr ""
+
+#: includes/classes/class.gallery-nextgen.php:334
+msgid "The uploads folder is not writable."
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:17
+msgctxt "Column label"
+msgid "File"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:18
+msgctxt "Column label"
+msgid "Folder"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:19
+msgctxt "Column label"
+msgid "Status"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:20
+msgctxt "Column label"
+msgid "Optimization"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:61
+msgid "Имя файла:"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:74
+msgid "Success"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:75
+msgid "Error"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:76
+msgid "Processing"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:77
+#: includes/classes/class.folders-list-table.php:174
+msgid "Unoptimized"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:78
+msgid "Skipped"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:162
+msgid "Filter by folder"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:164
+msgid "All Folders"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:170
+msgid "Filter by status"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:172
+msgid "All Media Files"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:173
+msgid "Optimized"
+msgstr ""
+
+#: includes/classes/class.folders-list-table.php:175
+msgid "Errors"
+msgstr ""
+
+#: includes/classes/class.image-nextgen.php:191
+msgid "File not found"
+msgstr ""
+
+#: admin/pages/parts/sync-all-folders.php:2 admin/pages/parts/sync-folder.php:2
+msgid "Directory synchronization in progress"
+msgstr ""
+
+#: admin/pages/parts/sync-all-folders.php:3 admin/pages/parts/sync-folder.php:3
+msgid "Synchronization completed successfully."
+msgstr ""
+
+#: admin/pages/parts/select-folder.php:1
+msgid "Select folder"
+msgstr ""
+
+#: admin/pages/parts/select-folder.php:4
+msgid "Select"
+msgstr ""
+
+#: admin/pages/parts/select-folder.php:5
+msgid "The selected directory is being indexed. Found"
+msgstr ""
+
+#: admin/pages/parts/select-folder.php:5
+msgid "images."
+msgstr ""
+
+#: admin/pages/parts/select-folder.php:6
+msgid ""
+"Indexing complete. Directory successfully added and ready for optimization."
+msgstr ""
+
+#: admin/pages/parts/restore-folder.php:2
+msgid "Restore from backup"
+msgstr ""
+
+#: admin/pages/parts/restore-folder.php:3
+msgid "Restore completed successfully."
+msgstr ""
+
+#: admin/pages/parts/folders-table.php:3
+msgid "Additional media folders"
+msgstr ""
+
+#: admin/pages/parts/folders-table.php:4
+msgid ""
+"Use the add folder... button to select site folders. Robin image optimizer "
+"will optimize images from the specified folders and their subfolders. The "
+"optimization status for each image in these folders can be seen in the Other "
+"Media list, under the Media menu."
+msgstr ""
+
+#: admin/pages/parts/folders-table.php:5
+msgid "Add custom folder"
+msgstr ""
+
+#: admin/pages/parts/folders-table.php:11
+msgid "Files"
+msgstr ""
+
+#: admin/pages/parts/folders-table.php:12
+msgid "Folder"
+msgstr ""
+
+#: admin/pages/parts/folders-table.php:13
+msgid "Actions"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:8
+msgid "of"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:15
+msgid "Optimize"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:16
+msgid "Sync"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:17
+msgid "Recover images from backup?"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:17
+msgid "Restore"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:18
+msgid "Exclude directory from optimization?"
+msgstr ""
+
+#: admin/pages/parts/folders-table-body.php:18
+msgid "Stop optimizing"
+msgstr ""
+
+#: admin/pages/parts/optimize-folder.php:2
+msgid "The images from the directory are being optimized."
+msgstr ""
+
+#: admin/pages/parts/optimize-folder.php:3
+msgid "Optimization completed successfully."
+msgstr ""
+
+#: includes/classes/webp/class.webp-collection.php:69
+msgid "Convertions"
+msgstr ""
+
+#: includes/classes/webp/class.webp-collection.php:69
+msgid "Here you can specify additional image convertion options."
+msgstr ""
+
+#: includes/classes/webp/class.webp-collection.php:76
+msgid "Convert Images to WebP"
+msgstr ""
+
+#: includes/classes/webp/class.webp-collection.php:78
+msgid ""
+"Convert JPEG & PNG images into WebP format and replace them for browsers "
+"which support it. Unsupported browsers would be skipped."
+msgstr ""
+
+#. Name of the plugin
+msgid "Webcraftic Robin image optimizer premium"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin descricription"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://site.dev/plugin-page"
+msgstr ""
+
+#. Author of the plugin
+msgid "Webcraftic <wordpress.webraftic@gmail.com>"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://clearfy.pro"
+msgstr ""

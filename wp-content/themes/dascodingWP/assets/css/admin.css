@@ -1,0 +1,10 @@
+/*  #sku,
+.sku.column-sku,
+#postexcerpt,
+#commentsdiv,
+#woocommerce-product-data,
+#normal-sortables,
+#tagsdiv-product_tag, */
+.category-tabs li.hide-if-no-js{
+	display: none !important;
+} 

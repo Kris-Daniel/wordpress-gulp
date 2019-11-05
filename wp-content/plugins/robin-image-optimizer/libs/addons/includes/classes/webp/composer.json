@@ -1,0 +1,5 @@
+{
+    "require": {
+        "rosell-dk/dom-util-for-webp": "^0.3.0"
+    }
+}

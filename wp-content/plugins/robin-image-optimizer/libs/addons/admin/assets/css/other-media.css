@@ -1,0 +1,210 @@
+.wriop-files-list #preview {
+    width: 80px;
+}
+
+.wriop-files-list #file {
+    width: 250px;
+}
+
+.wriop-files-list #status {
+    width: 100px;
+}
+
+.wriop-files-list #optimization {
+    width: 200px;
+}
+
+/* Filter block */
+.wriop-files-list .wp-filter {
+    padding: 15px 20px;
+}
+
+.wriop-files-list .filter-items select {
+    height: auto;
+    padding: 6px;
+    margin-right: 12px;
+}
+
+.wriop-files-list .filter-items .button {
+    height: auto;
+    padding: 2px 12px 3px;
+}
+
+/* Empty table */
+.wriop-files-list .no-items td {
+    padding: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wriop-files-list .no-items td a {
+    text-decoration: underline;
+}
+
+/* Th sortable */
+.wriop-files-list .sortable a {
+    color: #000;
+}
+
+/* Global links */
+.wriop-files-list a {
+    color: #3694AE;
+}
+
+/* Global TDs */
+.wriop-files-list tbody td,
+.wriop-files-list tbody th,
+.wriop-files-list.wriop-files-list tbody .check-column {
+    vertical-align: top;
+    text-align: left;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    color: #626E7B;
+}
+
+.wriop-files-list .column-file,
+.wriop-files-list .column-folder,
+.wriop-files-list .column-status {
+    padding-top: 28px;
+}
+
+/* Col Title */
+.wriop-files-list .column-preview strong  {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.wriop-files-list .column-preview strong a {
+    display: inline-flex;
+    align-items: center;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-weight: normal;
+}
+
+.wriop-files-list .filename {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wriop-files-list .media-icon {
+    position: relative;
+    width: 60px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.media-icon .centered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%, 50%);
+}
+
+.media-icon .centered img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+table.media .column-preview .media-icon.landscape img {
+    max-width: none;
+    width: auto;
+    height: 60px;
+}
+
+table.media .column-preview .media-icon.portrait img {
+    width: 60px;
+}
+
+/* Optimization datas Col */
+.wriop-files-list ul.wriop-datas-list {
+    font-size: 11px;
+}
+
+.wriop-files-list ul.wriop-datas-list .big {
+    font-size: 13px;
+}
+
+.wriop-files-list ul.wriop-datas-list span.wriopy-chart-value {
+    font-size: 12px;
+}
+
+.wriop-files-list ul.wriop-datas-list .wriop-chart-container {
+    margin-right: 2px;
+}
+
+.wriop-files-list ul.wriop-datas-list canvas {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+/* Optimization Level Col */
+.wriop-files-list .optimization_level {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.wriopy-files-list .column-optimization_level,
+.wriop-files-list .column-optimization_level a {
+    text-align: center;
+}
+
+.wriop-files-list .column-optimization_level a span {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wriop-files-list .column-optimization_level .sorting-indicator {
+    vertical-align: -10px;
+}
+
+/* Actions col */
+.wriop-files-list .column-actions .button,
+.wriop-files-list .column-actions .button-primary {
+    padding: 5px 20px;
+    font-size: 14px;
+    height: auto;
+}
+
+.wriop-files-list .column-actions .button-primary {
+    background: #3694AE;
+    color: #FFF;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.wriop-files-list .column-actions a,
+.status a.button-wriop-refresh-status {
+    display: inline-block;
+    margin: .3em 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wriop-files-list .wriop-status-already_optimized {
+    font-weight: bold;
+    color: #8BC34A;
+}
+
+.wriop-files-list .column-actions a .dashicons,
+.wriop-files-list .column-actions a .dashicons:before,
+.status a.button-wriop-refresh-status .dashicons,
+.status a.button-wriop-refresh-status .dashicons:before {
+    margin-right: 2px;
+    font-size: 17px;
+    height: 17px;
+    width: 17px;
+}
+
+.wriop-files-list .wio-reoptimize {
+    margin-top: 15px;
+}
